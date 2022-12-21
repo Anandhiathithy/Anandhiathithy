@@ -1,0 +1,22 @@
+package NumberSequence;
+
+public class PrintMulti7bw1to100 {
+	static void b(int num1)
+	{
+		if(num1>=0 && num1<=99) {
+			num1++;
+			if(num1 %7==0) {
+				System.out.println("1 to 100 7 mutiply no:"+ " "+num1);
+			}
+			b(num1);
+		}
+	}
+		public static void main(String[] args) {
+			b(0);
+			
+
+		}
+
+	}
+
+
