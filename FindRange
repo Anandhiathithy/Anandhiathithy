@@ -1,0 +1,23 @@
+package Statistics;
+
+public class FindRange {
+	public static void main(String[] args) {
+		int a[]= {9,3,1,8,3,6};
+		int largest=a[0],smallest=a[0];
+		 for (int i = 1; i < a.length; i++) {
+			   if (a[i] > largest) {
+			    largest = a[i];
+			   }
+			   if (a[i] < smallest) {
+			    smallest = a[i];
+			   }
+		 }
+			  int Range=largest-smallest;
+		System.out.println("Range of the statistic array is: "+Range );
+		
+		
+
+		
+	}
+
+}
