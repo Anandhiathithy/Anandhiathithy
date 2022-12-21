@@ -1,0 +1,17 @@
+package NumberSequence;
+
+public class Recursion1to10 {
+	static void a(int num ) {
+	if(num>0&&num<=10) {
+		System.out.print(num+" ");
+		num++;
+		a(num);
+	}
+	}
+
+	public static void main(String[] args) {
+	  a(1);
+
+	}
+
+}
