@@ -1,0 +1,22 @@
+package Homeworksum;
+
+public class Removespacestring {
+
+	public static void main(String[] args) {
+	String s=" I Love my Father";
+	System.out.println("Before:"+s);
+	String s1="";
+	char c[]=new char[s.length()];
+	for(int i=0;i<c.length;i++)
+	{
+		c[i]=s.charAt(i);
+	if(c[i]!=' ') {
+		s1=s1+c[i];
+		
+	}
+	}
+System.out.println("After:"+s1);
+	}
+
+}
+
