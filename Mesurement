@@ -1,0 +1,33 @@
+package Measurement;
+import java.util.*;
+class A
+{
+	void nothing(double square,double circle) {
+		double a=square*square;
+		double b= 3.14;
+		double squareArea=a;
+		double circleArea=b*circle*circle;
+		if(squareArea>circleArea) {
+			System.out.println("Square of area is greater than circleArea");
+		}
+		else {
+			System.out.println("CircleArea is greater than Square of area");
+			
+		}
+	}
+}
+public class Mesurement {
+
+	public static void main(String[] args) {
+		A obj=new A();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the square value");
+		double s=sc.nextDouble();
+		System.out.println("Enter the circle value");
+		double c=sc.nextDouble();
+		obj.nothing(s, c);
+		
+
+	}
+
+}
