@@ -1,0 +1,22 @@
+package NumberSequence;
+
+public class Recursion10to1 {
+
+	static void ab(int num1 ) {
+		if(num1>0&&num1<=10) {
+			System.out.print(num1+" ");
+			num1--;
+			ab(num1);
+		}
+		}
+
+		public static void main(String[] args) {
+		  ab(10);
+
+		}
+
+
+
+	}
+
+
