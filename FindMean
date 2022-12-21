@@ -1,0 +1,17 @@
+package Statistics;
+
+public class FindMean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {9,3,1,8,3,6};
+		int sum=0;
+		
+		for(int i=0;i<a.length;i++)
+		sum=sum+a[i];
+		System.out.println(sum/2);
+		System.out.println(sum/a.length);
+		
+	}
+
+}
